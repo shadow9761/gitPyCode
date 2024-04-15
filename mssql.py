@@ -14,7 +14,7 @@ def max(num1 , num2 ):
 def readDb():
 
     conn = pymssql.connect(
-    server='localhost',
+    server='192.168.12.244',
     user='sa',
     password='sa',
     database='wen_test'
@@ -34,7 +34,7 @@ def readDb():
 def writeDb():
 
     conn = pymssql.connect(
-    server='localhost',
+    server='192.168.12.244',
     user='sa',
     password='sa',
     database='wen_test'
