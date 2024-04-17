@@ -12,4 +12,4 @@ imp2.hello()
 mssql.readDb()
 mssql.max(2 , 3)
 
-print('aaa')
+print('good')
